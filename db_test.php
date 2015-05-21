@@ -6,5 +6,6 @@
     echo 'success!';
     mysqli_set_charset($link, "utf8");
     echo 'character code is' .mysqli_character_set_name($link).'.';
+    mysql_close($link);
   }
 ?>
